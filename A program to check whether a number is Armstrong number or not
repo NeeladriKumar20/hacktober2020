@@ -1,0 +1,22 @@
+//The code is written in C language
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+int num, sum=0, r, n;
+clrscr();
+printf("Enter a Number :");
+scanf("%d", &num");
+n=num;
+while(n>0)
+{
+r=n%10;
+sum=sum+pow(r,3);
+n=n/10;
+}
+if(sum==num)
+printf("The given number is an Armstrong Number");
+else
+printf("The given number is not an Armstrong Number");
+}
